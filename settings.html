@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>神諭</title>
+    <!--引用bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!--鎖住右鍵-->
+    <SCRIPT>
+        function click() {
+            //0_左鍵,1_中鍵,2_右鍵
+            if (event.button == 2) {
+                alert("Stop Stealing The Code! 請勿拷貝本站資料!")
+            }
+        } document.onmousedown = click
+    </SCRIPT>
+    <style>
+        body{
+            background-color: #000000;
+            font-family: 標楷體;
+        }
+        .navbar {
+            background-color:rgba(58,0,136,1);
+            width: 100%;
+            position: relative;  
+        }
+    </style>
+</head>
+<body>
+    <script src="js/navbar.js"></script>
+    <script src="js/sing_in.js"></script>
+    <script src="js/firebase.js"></script>
+</body>
+</html>

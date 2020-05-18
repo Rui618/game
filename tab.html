@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>神諭</title>
+    <!--引用bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!--鎖住右鍵-->
+        <SCRIPT>
+            function click() {
+                //0_左鍵,1_中鍵,2_右鍵
+                if (event.button == 2) {
+                    alert("Stop Stealing The Code! 請勿拷貝本站資料!")
+                }
+            } document.onmousedown = click
+        </SCRIPT>
+    <style>
+        body {
+            background-color: #000000;
+            font-family: 標楷體;
+        }
+        .navbar {
+                background-color:rgba(58,0,136,1);
+                width: 100%;     
+                position: relative;          
+        }
+      
+    </style>
+    
+<body>
+    <script src="js/navbar.js"></script>
+    <script src="js/sing_in.js"></script>
+    <script src="js/firebase.js"></script>
+    <div class="tab-content">
+            <div class="container tab-pane active">
+                <div class="row mt-3">
+                    <div class="col-md-6 text-center">
+                        <img src="images/雷特.png"
+                            class="img-fluid" style="width:50%">
+                    </div>
+                    <div class="col-md-6 text-justify" style="padding:30px 15px 10px;color:#FFFFFF">
+                        <h3>
+                            <p>男主角:雷</p>
+                            <p>年紀:17歲</p>
+                        </h3>
+                        <p>
+                            從小就抱持著異常強烈的正義感，憧憬著成為挺身而出、拯救他人的英雄，時常為班上受霸凌的同學打抱不平，卻也因此成為班上霸凌集團眼中的「獵物」。成為霸凌對象的雷特在此時恰好接觸到了「神諭」這款遊戲，對於不論是身心靈都遍體鱗傷的雷特，神諭的出現無疑是給了他精神上重大的支柱。<b>"也許只能在虛幻的世界中成就自己的理想了吧"</b>心中不斷冒出這般消極想法的雷特收到了來自「神諭」營運的邀請…
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6 text-center">
+                        <img src="images/艾莉絲.png"
+                            class="img-fluid" style="width:50%">
+                    </div>
+                    <div class="col-md-6 text-justify" style="padding:30px 15px 10px;color:#FFFFFF">
+                        <h3>
+                            <p>女主角:艾莉絲</p>
+                            <p>年紀：16歲</p>
+                        </h3>
+                        <p>
+                            因家庭失和的原因導致艾莉絲十分缺乏對其他人的信任，但卻又渴望與和他人交流，或許是想在與陌生人的互動中找到不曾有過家庭的氛圍。輾轉流離在各個隊伍間。文靜隨波逐流的個性也導致某些同隊玩家的非分之想，甚至演變成隊伍內的衝突，也因此背負了掃把星的罵名。
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6 text-center">
+                        <img src="images/馬克斯.png"
+                            class="img-fluid" style="width:50%">
+                    </div>
+                    <div class="col-md-6  text-justify"
+                        style="padding:30px 15px 10px;color:#FFFFFF">
+                        <h3>
+                            <p>神:馬克斯</p>
+                            <p>年紀：26歲</p>
+                        </h3>
+                        <p>
+                            神諭的主要製作人，期望打造出世界上最完美的網路遊戲，剛愎自負且喪心病狂的性格導致他在職場上樹立眾多的敵人。由於總公司高層投資失利，因此要求馬克斯在遊戲的製作和經營上能有更大的突破，借此吸引更多玩家註冊。迫於高層壓力下，馬克斯果斷推出神諭大更新，在未經過任何風險測試下邀請五名玩家參加此次的封測。
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6 text-center">
+                        <img src="images/凱文.png"
+                            class="img-fluid" style="width:50%">
+                    </div>
+                    <div class="col-md-6  text-justify"
+                        style="padding:30px 15px 10px;color:#FFFFFF">
+                        <h3>
+                            <p>駭客:凱文(Kevin)</p>
+                            <p>年紀:35歲</p>
+                        </h3>
+                        <p>
+                            受雇其他企業的委託，潛入「神諭」系統內竊取遊戲內機密資料以及破壞遊戲內的人工智慧。在負債和長期失業的雙重壓力下這份委託正好成了他的救命稻草，平時偽裝成「神諭」製作團隊的內部員工，以職位之便將寄給五名測試玩家的其中一份邀請函替換成自己，打算從內部瓦解整個遊戲系統。
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6 text-center">
+                        <img src="images/旺財.png"
+                            class="img-fluid" style="width:50%">
+                    </div>
+                    <div class="col-md-6  text-justify"
+                        style="padding:30px 15px 10px;color:#FFFFFF">
+                        <h3>
+                            <p>狗:旺財</p>
+                        </h3>
+                        <p>
+                            經常在製作工作室附近遊蕩的小狗，是整個辦公室的吉祥物，很容易與人親近。在神諭的封測開始時誤入遊戲系統的連接器，出乎人意料的和遊戲的連接器完美的契合，製作人也以看起來很有趣同意了牠成為了封閉測試的一分子。
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
